@@ -1,1 +1,1 @@
-# appium-app-testing
+# Appomation: App Automation Testing
