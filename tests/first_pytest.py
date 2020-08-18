@@ -1,6 +1,12 @@
+import pytest
+import time
+
+
 def func(x):
     return x + 1
 
 
-def test_add_one(value=1):
-    return func(value)
+@pytest.mark.parametrize("values, result", [(1, 2), (2, 3), (3, 4)])
+def test_add_one(values, result):
+    time.sleep(3)
+    assert func(values) == result
