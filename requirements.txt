@@ -12,3 +12,4 @@ six==1.15.0
 virtualenv==20.0.28
 wcwidth==0.2.5
 pytest-xdist==2.0.0
+Appium-Python-Client==1.0.2
